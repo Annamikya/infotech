@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="heroGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#A78BFA;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8fafc"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="350" cy="30" r="50" fill="url(#heroGrad1)"/>
+  <circle cx="50" cy="250" r="40" fill="url(#heroGrad1)"/>
+  
+  <!-- Document/Compliance illustration -->
+  <g transform="translate(200, 150)">
+    <!-- Document -->
+    <rect x="-40" y="-60" width="80" height="120" rx="5" fill="#ffffff" stroke="#8B5CF6" stroke-width="2"/>
+    
+    <!-- Document lines -->
+    <line x1="-30" y1="-45" x2="30" y2="-45" stroke="#8B5CF6" stroke-width="2" opacity="0.3"/>
+    <line x1="-30" y1="-30" x2="30" y2="-30" stroke="#8B5CF6" stroke-width="2" opacity="0.3"/>
+    <line x1="-30" y1="-15" x2="30" y2="-15" stroke="#8B5CF6" stroke-width="2" opacity="0.3"/>
+    <line x1="-30" y1="0" x2="30" y2="0" stroke="#8B5CF6" stroke-width="2" opacity="0.3"/>
+    <line x1="-30" y1="15" x2="30" y2="15" stroke="#8B5CF6" stroke-width="2" opacity="0.3"/>
+    
+    <!-- Checkmark on document -->
+    <circle cx="50" cy="-50" r="18" fill="#10b981" stroke="#059669" stroke-width="2"/>
+    <path d="M 45 -52 L 50 -47 L 56 -54" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Floating elements -->
+  <g transform="translate(100, 100)" opacity="0.6">
+    <rect x="0" y="0" width="30" height="30" rx="3" fill="#A78BFA"/>
+  </g>
+  
+  <g transform="translate(300, 200)" opacity="0.6">
+    <circle cx="0" cy="0" r="15" fill="#8B5CF6"/>
+  </g>
+</svg>

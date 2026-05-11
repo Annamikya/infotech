@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="feat3Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ddd6fe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <circle cx="100" cy="100" r="95" fill="#faf5ff" stroke="url(#feat3Grad)" stroke-width="2"/>
+  
+  <!-- Icon: Support/Help -->
+  <g transform="translate(100, 100)">
+    <!-- Headset -->
+    <circle cx="-12" cy="0" r="8" fill="none" stroke="url(#feat3Grad)" stroke-width="2.5"/>
+    <circle cx="12" cy="0" r="8" fill="none" stroke="url(#feat3Grad)" stroke-width="2.5"/>
+    
+    <!-- Band -->
+    <path d="M -12 -8 Q 0 -15 12 -8" fill="none" stroke="url(#feat3Grad)" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Mic boom -->
+    <line x1="12" y1="8" x2="20" y2="25" stroke="url(#feat3Grad)" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="20" cy="30" r="4" fill="url(#feat3Grad)"/>
+  </g>
+</svg>
